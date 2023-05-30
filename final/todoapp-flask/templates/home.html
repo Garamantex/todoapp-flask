@@ -52,13 +52,13 @@
                 <p class="task-deadline">Deadline: {{ task['deadline'] }}</p>
               </div>
               {% if task['completed'] %}
-                <span class="badge bg-success">Completed</span>
-                <a href="/delete/{{ loop.index0 }}" class="btn btn-sm btn-danger">Delete</a>
-                <a href="/complete/{{ loop.index0 }}" class="btn btn-sm btn-secondary">Incomplete</a>
+                <span class="badge bg-success">Completa</span>
+                <a href="/delete/{{ loop.index0 }}" class="btn btn-sm btn-danger">Borrar</a>
+                <a href="/complete/{{ loop.index0 }}" class="btn btn-sm btn-secondary">Incompleta</a>
               {% else %}
-                <span class="badge bg-primary">Incomplete</span>
-                <a href="/delete/{{ loop.index0 }}" class="btn btn-sm btn-danger">Delete</a>
-                <a href="/complete/{{ loop.index0 }}" class="btn btn-sm btn-success">Complete</a>
+                <span class="badge bg-primary">Incompleta</span>
+                <a href="/delete/{{ loop.index0 }}" class="btn btn-sm btn-danger">Borrar</a>
+                <a href="/complete/{{ loop.index0 }}" class="btn btn-sm btn-success">Completa</a>
               {% endif %}
             </li>
           {% endfor %}
