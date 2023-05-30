@@ -1,0 +1,120 @@
+body {
+    background-color: aliceblue !important;
+}
+
+.content {
+    background-color: white;
+}
+
+.sidebar {
+    padding: 20px 15px;
+    background-color: rgb(23, 133, 230);
+    height: 100%;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.title-white {
+    color: white;
+}
+
+.task-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.task-span {
+    font-weight: bold;
+}
+
+.form {
+    padding: 20px 15px 50px;
+    border-bottom: 2px solid rgb(23, 133, 230);
+    margin-bottom: 50px;
+}
+
+.label {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    border: none !important;
+    border-bottom: 1px solid rgb(23, 133, 230) !important;
+    height: 40px  !important;
+    margin-bottom: 30px;
+}
+
+.form-input:focus {
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(23, 133, 230) !important;
+
+}
+
+.form-textarea {
+    border: none !important;
+    border-bottom: 1px solid rgb(23, 133, 230) !important;
+    margin-bottom: 30px;
+}
+
+.form-textarea:focus {
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(23, 133, 230) !important;
+}
+
+.task-name {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    border-bottom: 0.1px dashed rgb(23, 133, 230);
+    padding: 10px;
+    background-color: aqua;
+}
+
+.task-description {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgb(23, 133, 230);
+}
+
+.task-deadline {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgb(23, 133, 230);
+}
+
+.badge {
+    padding: 15px 30px !important;
+    font-size: 20px !important;
+    color: white;
+}
+
+.btn {
+    padding: 10px 30px !important;
+    font-size: 20px !important;
+}
+
+.list-group-item {
+    margin-bottom: 40px !important;
+    border: 2px solid rgb(23, 133, 230) !important;
+}

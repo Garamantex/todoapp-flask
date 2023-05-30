@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
